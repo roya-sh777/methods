@@ -1,12 +1,13 @@
 ﻿class Program
 {
-    static double Area(double radius)
+    static double Area(double width, double length)
     {
-        return Math.PI * radius * radius;
+        return width * length;
     }
     static void Main()
     {
-        double radius = 3;
-        Console.WriteLine(Area(radius));
+        Console.WriteLine("Duzbucaqlinin enini daxil edin");
+        Console.WriteLine("Duzbucaqlinin uzunlugunu daxil edin");
+        Console.WriteLine("Duzbucaqlinin sahesi ");
     }
 }
